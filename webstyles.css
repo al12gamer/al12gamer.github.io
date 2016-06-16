@@ -14,9 +14,29 @@ a:link, a:visited {
     text-decoration: none;
     display: inline-block;
 }
-#tabbar{
+.tabbar{
   width: 100%;
   background-color: #333333;
+}
+
+.button{
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 4px;
+}
+
+.testbutton{
+    background-color: #4D4D4D;
+    color: white;
+    border: 3px solid gray;
+}
+
+.testbutton:hover {
+    background-color: black;
+    color: #b3ffff;
 }
 ul {
     list-style-type: none;
