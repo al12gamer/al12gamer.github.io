@@ -4,11 +4,13 @@ h1 {
     background-color: #2b2b3b;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align:center;
+  font-size: 200%;
 }
 h2 {
   background-color: #2b2b3b;
 font-family: Arial, Helvetica, sans-serif;
 text-align:center;
+font-size: 150%;
 }
 h3 {
   font-variant: small-caps;
@@ -74,8 +76,9 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 18px;
     text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 li a:hover {
